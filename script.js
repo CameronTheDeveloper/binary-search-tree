@@ -257,15 +257,20 @@ const merge = (left, right) => {
     return mergedArr;
 };
 
+
 const arr = [1, 4, 2, 7, 3, 12, 44, 5];
 
 const sortedAr = mergeSort(arr);
 
 let bstTree = buildTree(sortedAr);
 
-bstTree.insert(40);
-bstTree.insert(39);
-bstTree.insert(38);
+bstTree.insert(450);
+bstTree.insert(329);
+bstTree.insert(3867);
+bstTree.insert(38674);
+bstTree.insert(1674);
+
+
 
 bstTree.delete(3);
 console.log(bstTree.find(3));
